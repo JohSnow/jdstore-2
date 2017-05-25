@@ -17,3 +17,15 @@ u.password_confirmation = "111111"  # 最少要六位
 u.is_admin = true
 
 u.save
+
+
+
+
+#initialize product
+
+Product.create!(title: "斗笠杯",
+  description: "龙泉青瓷斗笠杯",
+  price: 199,
+  quantity: 5,
+  image: open("https://ws3.sinaimg.cn/large/006tNc79gy1fft2v4bb2cj30m80m8gyw.jpg")
+  )
